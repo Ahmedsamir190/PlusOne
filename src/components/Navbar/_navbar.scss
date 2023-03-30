@@ -1,0 +1,67 @@
+/*start navbar */
+.nav {
+    width: 100%;
+    .navbar {
+      h1 {
+        font-weight: 900;
+      }
+    }
+.offcanva {
+  position: fixed;
+  background-color: white;
+  height: 100%;
+  top: 0;
+  width: 40%;
+  left: 0;
+  transition: 9s;
+  border: 1px solid #80808040;
+  border-radius: 4%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  z-index:5;
+  box-shadow: inset 1px 1px 20px 20px #dcdcdcea;
+  @media (max-width:991px) {
+    width: 100%;
+  }
+  & li:hover{
+    background-color: #d6c9af69;;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 1s;
+    cursor: pointer;
+  }
+  & li {
+    padding: 25px;
+   
+      width: 100%;
+      text-align: center;
+  }
+}
+.close-icon{
+  position: absolute;
+  top: 4%;
+  right: 10%;
+  font-size: 25px;
+  cursor: pointer;
+  &:hover{
+    color:red
+  }
+}
+
+.cart{
+  position: relative;
+  span {
+    position: absolute;
+      top: -50%;
+      right: 0;
+  }
+}
+}
+
+
+/*End navbar */
